@@ -1,6 +1,7 @@
-public class ViolatingDIP {
+//Violating DIP
+public class Notifier {
     private EmailService emailService;
-    public ViolatingDIP(){
+    public Notifier(){
         this.emailService=new EmailService();//Direct dependency
     }
 

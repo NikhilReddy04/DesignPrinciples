@@ -1,6 +1,6 @@
-public class UserManager {
+public class UserNotifier {
     private NotificationService notificationService;
-    public UserManager(NotificationService service){
+    public UserNotifier(NotificationService service){
         this.notificationService=service;
     }
 
