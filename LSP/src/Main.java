@@ -12,5 +12,11 @@ public class Main {
         smartPhoneObj.openCalculator();
         smartPhoneObj.answerCall();
         smartPhoneObj.showTime();
+
+
+        //Calculator is extending phone
+        //Calculator can only perform calculate method
+        Calculator calcObj=new Calculator();
+        calcObj.answerCall();
     }
 }
